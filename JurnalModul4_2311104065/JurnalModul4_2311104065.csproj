@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Bagian C\**" />
+    <EmbeddedResource Remove="Bagian C\**" />
+    <None Remove="Bagian C\**" />
+  </ItemGroup>
+
 </Project>

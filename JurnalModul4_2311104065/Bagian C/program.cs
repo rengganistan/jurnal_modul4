@@ -11,7 +11,7 @@ namespace JurnalModul4_2311104065.Bagian_C
     {
         static void Main()
         {
-            Console.WriteLine("Kode buah : " + KodeBuah.getKodeBuah(" "));
+            Console.WriteLine("Kode buah Apel: " + KodeBuah.getKodeBuah("Apel"));
         }
     }
 }
